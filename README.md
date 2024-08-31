@@ -27,7 +27,11 @@
 git init -b main: Initializes a new Git repository.
 git status: Shows the status of the repository.
 git add <file>: Adds a file to the staging area.
+git add .:To add all files
 git commit -m "Commit message": Commits the changes in the staging area.
+git commit -a -m "Commit message": Commits the changes without adding
+git diff: To know what changes have been made before staging
+git rm --cached <file>:Remove a file from remote repository
 git branch: Lists all branches in the repository.
 git branch <branch_name>: Creates a new branch.
 git remote add origin <remote_repository_url>: Adds a remote repository.
