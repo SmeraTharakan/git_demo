@@ -24,7 +24,7 @@
 
 ## Basic Commands of Git
 ```
-git init: Initializes a new Git repository.
+git init -b main: Initializes a new Git repository.
 git status: Shows the status of the repository.
 git add <file>: Adds a file to the staging area.
 git commit -m "Commit message": Commits the changes in the staging area.
